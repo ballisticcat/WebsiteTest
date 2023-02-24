@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width, intitial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet"  href="w3.css"/>
+        <title>test</title>
+       
+    </head> 
+    <body>
+         
+
+
+      
+         <nav class="w3-bar w3-black">
+            <a href="sub index 1" class="w3-button w3-bar-item">God</a>
+            <a href="subIndex2.html" class="w3-button w3-bar-item">has</a>
+            <a href="#my" class="w3-button w3-bar-item">left</a>
+            <a href="#god" class="w3-button w3-bar-item">us</a>
+          </nav>
+          <section>
+            <img class="mySlides" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80" style="width:50%">
+            <img class="mySlides" src="https://wallpaperaccess.com/full/109672.jpg" style="width:100%">
+            <img class="mySlides" src="https://images.alphacoders.com/106/thumb-1920-1061218.png" style="width:100%">
+          </section>
+        <script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+        
+        <h1>你好</h1>
+         <p> Hello ladies and gentlemen </p>
+         <div class ="main-content"></div>
+       <div class="rectangle"></div>
+        </div>
+       
+    </body>
+</html>
